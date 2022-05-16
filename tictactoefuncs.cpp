@@ -74,5 +74,5 @@ void display_board(char board[9]) {
 
 void intro() {
   std::cout << "Welcome to Tic Tac Toe!\nChose the place where you want to place your piece.\n================================================\nThe board goes from 1, 2, 3 on the first row\n 4, 5, 6 on the second row, and 7, 8, 9 on the third.\nEach player takes turns after placing a piece.";
-  std::cout << "Example:\n1 | 2 | 3\n---------\n4 | 5 | 6\n---------\n7 | 8 | 9 \n================================================\n";
+  std::cout << "\nExample:\n1 | 2 | 3\n---------\n4 | 5 | 6\n---------\n7 | 8 | 9 \n================================================\n";
 }
