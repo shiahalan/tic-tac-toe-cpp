@@ -9,7 +9,7 @@ int main() {
   int correct = 0;
 
   intro();
-
+  
   while (true) {
     display_board(board);
 
@@ -31,6 +31,8 @@ int main() {
     } 
 
     if (winner(board, piece)) {
+      display_board(board);
+      congrat(piece);
       break;
     }
 
