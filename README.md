@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-## Desciption:
+## Description:
 This project uses C++ and arrays to create a game of tic-tac-toe in the terminal.
 
 ## How to use:
